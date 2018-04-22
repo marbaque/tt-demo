@@ -43,6 +43,14 @@
 	
 	$('.demo').on('click', function() {// Click handler to open modal
 	    modal.open({content: $content, width:320, height:300});
+	    
+	    var $window = $(window); 
+	    var top = Math.max($window.height() - $content.outerHeight(), 0) / 2;
+	    //var left = Math.max($window.width() - $content.outerWidth(), 0) / 2;
+	    
+	    $($content).css({top:'100%', opacity:'0'});
+	    
+	    $($content).animate({top:top, opacity:'1'}, 1000);
 	});
 	
 	

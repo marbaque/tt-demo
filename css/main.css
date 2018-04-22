@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 
-Diseñado por Mario Badilla
+Estilos creados por Mario Badilla
 mariobadilla.com 
 */
 /* variables */
@@ -1331,6 +1331,10 @@ dl dd {
   clear: left; }
 
 /*-----------  Aqui termina el ACCORDION ---*/
+/*----------- Modal ------------*/
+.demo {
+  cursor: pointer; }
+
 .modal {
   position: fixed;
   min-width: 100%;
@@ -1357,28 +1361,28 @@ dl dd {
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    opacity: .5; }
     .modal #ventana-demo:before {
       content: "";
-      width: 126px;
-      height: 148px;
+      width: 74px;
+      height: 88px;
       display: block;
       position: absolute;
-      top: -160px;
-      left: calc(50% - 63px);
+      top: -55px;
+      left: calc(50% - 37px);
       background-image: url("../images/escudo.png");
       background-image: none, url("../images/escudo.svg");
-      background-repeat: none; }
-    .modal #ventana-demo p, .modal #ventana-demo h5 {
+      background-repeat: no-repeat; }
+    .modal #ventana-demo p, .modal #ventana-demo h6 {
       margin: 0 0 .25em; }
     .modal #ventana-demo hr {
       margin: 1em 0; }
     @media screen and (min-width: 550px) {
       .modal #ventana-demo {
-        padding: 20px; } }
+        padding: 40px 20px 20px; } }
   .modal * html #ventana-demo {
     position: absolute; }
   .modal * html .modal {
