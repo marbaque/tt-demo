@@ -1338,55 +1338,52 @@ dl dd {
   top: 0;
   left: 0;
   background-color: rgba(50, 60, 100, 0.9);
-  z-index: 1000; }
-
-#ventana-demo {
-  font-size: .7em;
-  background-color: #f2f2f2;
-  border-left: 14px solid #1ccfc9;
-  padding: 5%;
-  width: 90%;
-  max-width: 480px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  /* Prevent background color leak outs */
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-  #ventana-demo:before {
-    content: "";
-    width: 126px;
-    height: 148px;
-    display: block;
-    position: absolute;
-    top: -160px;
-    left: calc(50% - 63px);
-    background-image: url("../images/escudo.png");
-    background-image: none, url("../images/escudo.svg");
-    background-repeat: none; }
-  #ventana-demo p, #ventana-demo h5 {
-    margin: 0 0 .25em; }
-  #ventana-demo hr {
-    margin: 1em 0; }
-  @media screen and (min-width: 550px) {
-    #ventana-demo {
-      padding: 20px;
-      font-size: .77em; } }
-
-* html #ventana-demo {
-  position: absolute; }
-
-/* for IE shitty browser */
-* html .modal {
-  position: absolute; }
+  z-index: 1000;
+  /* for IE shitty browser */ }
+  .modal #ventana-demo {
+    font-size: .7em;
+    background-color: #f2f2f2;
+    border-left: 14px solid #1ccfc9;
+    padding: 5%;
+    width: 90%;
+    max-width: 480px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /* Prevent background color leak outs */
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .modal #ventana-demo:before {
+      content: "";
+      width: 126px;
+      height: 148px;
+      display: block;
+      position: absolute;
+      top: -160px;
+      left: calc(50% - 63px);
+      background-image: url("../images/escudo.png");
+      background-image: none, url("../images/escudo.svg");
+      background-repeat: none; }
+    .modal #ventana-demo p, .modal #ventana-demo h5 {
+      margin: 0 0 .25em; }
+    .modal #ventana-demo hr {
+      margin: 1em 0; }
+    @media screen and (min-width: 550px) {
+      .modal #ventana-demo {
+        padding: 20px;
+        font-size: .77em; } }
+  .modal * html #ventana-demo {
+    position: absolute; }
+  .modal * html .modal {
+    position: absolute; }
 
 .modal-close {
   cursor: pointer; }

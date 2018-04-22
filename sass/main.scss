@@ -793,49 +793,51 @@ dl {
 	
 	background-color: rgba(50,60,100,.9);
 	z-index: 1000;
-}
-
-#ventana-demo {
-	font-size: .7em;
 	
-	background-color: $gris1;
-	border-left: 14px solid $color-principal;
-	padding: 5%;
-	width: 90%;
-	max-width: 480px;
-	@include border(5px);
-	
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	
-	&:before {
-		content: "";
-		width: 126px;
-		height: 148px;
-		display: block;
-		position: absolute;
-		top:  -160px;
-		left: calc(50% - 63px);
-		@include vector-bg-with-fallback(escudo);
-		background-repeat: none;
+	#ventana-demo {
+		font-size: .7em;
+		
+		background-color: $gris1;
+		border-left: 14px solid $color-principal;
+		padding: 5%;
+		width: 90%;
+		max-width: 480px;
+		@include border(5px);
+		
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		
+		&:before {
+			content: "";
+			width: 126px;
+			height: 148px;
+			display: block;
+			position: absolute;
+			top:  -160px;
+			left: calc(50% - 63px);
+			@include vector-bg-with-fallback(escudo);
+			background-repeat: none;
+		}
+		
+		p, h5 { margin: 0 0 .25em; }
+		hr { margin: 1em 0; }
+		
+		@media screen and (min-width: $break-small) {
+			padding: 20px;
+			font-size: .77em;
+		}
 	}
 	
-	p, h5 { margin: 0 0 .25em; }
-	hr { margin: 1em 0; }
-	
-	@media screen and (min-width: $break-small) {
-		padding: 20px;
-		font-size: .77em;
-	}
+	* html #ventana-demo { position:absolute;} /* for IE shitty browser */
+	* html .modal { position:absolute;}
 }
 
-* html #ventana-demo { position:absolute;} /* for IE shitty browser */
-* html .modal { position:absolute;}
+
 
 
 
