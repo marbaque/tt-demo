@@ -1378,8 +1378,7 @@ dl dd {
       margin: 1em 0; }
     @media screen and (min-width: 550px) {
       .modal #ventana-demo {
-        padding: 20px;
-        font-size: .77em; } }
+        padding: 20px; } }
   .modal * html #ventana-demo {
     position: absolute; }
   .modal * html .modal {
