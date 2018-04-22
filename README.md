@@ -1,4 +1,4 @@
-# Teletrabajo para jefes
+# Teletrabajo para jefes DEMO
 La Guía de teletrabajo para jefes ha sido elaborada para todas aquellas personas involucradas en la 
 administración de talento humano e interesadas en conocer sobre el tema para así administrar, en un futuro, 
 a funcionarios teletrabajadores.
