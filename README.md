@@ -33,4 +33,3 @@ Teléfono: 2234-3236 ext. 3525.
 <li>Versión: 1.0.</li>
 <li>Publicación: julio, 2018.</li>
 <li>Última actualización: julio, 2018.</li>
-# tt-jefes-demo
