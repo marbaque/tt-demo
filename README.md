@@ -1,5 +1,5 @@
-# Libro multimedia Guía de teletrabajo para jefes (DEMO)
-La Guía de teletrabajo para jefes (DEMO) ha sido elaborada para todas aquellas personas involucradas en la
+# Libro multimedia Guía de teletrabajo para jefes (Versión DEMO)
+La Guía de teletrabajo para jefes en su versión DEMO ha sido elaborada para todas aquellas personas involucradas en la
 gestión del talento humano e interesadas en conocer sobre el tema para así administrar, en un futuro,
 a funcionarios teletrabajadores.
 
